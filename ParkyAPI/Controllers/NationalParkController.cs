@@ -30,5 +30,11 @@ namespace ParkyAPI.Controllers
             return Ok(objgetAll);
         }
 
+        [HttpGet]
+        public IActionResult GetNationalParkByID()
+        {
+            return Ok();
+        }
+
     }
 }

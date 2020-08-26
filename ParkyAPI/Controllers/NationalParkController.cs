@@ -31,7 +31,7 @@ namespace ParkyAPI.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetNationalParkByID()
+        public IActionResult GetNationalParkByID(int id)
         {
             return Ok();
         }
